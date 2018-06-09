@@ -32,9 +32,9 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/zkpd-3-s.git"
+    "url": "git://github.com/root/zkpd-3-s.git"
   },
-  "author": "anonymous node/sails user",
+  "author": "root",
   "license": "",
   "engines": {
     "node": ">=10.4"
