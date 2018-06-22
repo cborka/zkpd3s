@@ -47,7 +47,8 @@
 
 config/local.js
 config/datastores.js
-
+views/pages/homepage-old.ejs
+views/layouts/layout-old.ejs
 
 ################################################
 # Dependencies
