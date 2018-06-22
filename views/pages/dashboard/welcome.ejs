@@ -5,27 +5,28 @@
     <p>Это страница, которую могут посещать только зарегистрированные пользователи. Можете приступать к работе.</p>
     <div class="buttons">
       <a class="btn btn-info" href="/account/profile">Обновить адрес моей электронной почты.</a>
-      <button class="btn btn-outline-info ml-2" @click="clickOpenDashboardModalButton()">Open a modal</button>
+      <button class="btn btn-outline-info ml-2" @click="clickOpenDashboardModalButton()">Модальное окно</button>
     </div>
   </div>
 
   <modal class="example-modal" v-if="dashboardModalVisible" @close="closeDashboardModal()" v-cloak>
     <div class="modal-header">
       <h2 class="modal-title">Пример модального окна</h2>
-      <p>В свободное время, пожалуйста, прочтите этот отрывок из сказки.</p>
+      <p>Пусть останется как образец.</p>
       <hr/>
       <button type="button" class="modal-close-button" data-dismiss="modal" aria-label="Close"></button>
     </div>
     <div class="modal-body">
 
 
-      <h5 class="section-heading">Глава 1: Смутные очертания.</h5>
-      <p>Тут была какая-то муть на английском из какой-то сказки.</p>
+      <h5 class="section-heading">Модальное окно.</h5>
+      <p>Не позволяет ничего делать пока его не закроешь.</p>
     </div>
     <div class="modal-footer flex-row-reverse justify-content-between">
       <button type="button" data-dismiss="modal" class="btn btn-info">Close</button>
       <button type="button" data-dismiss="modal" class="btn btn-outline-info">Cancel</button>
     </div>
   </modal>
+
 </div>
 <%- /* Expose locals as `window.SAILS_LOCALS` :: */ exposeLocalsToBrowser() %>
